@@ -10,7 +10,7 @@
 
             <ul class="list-unstyled components">
                 <li>
-                    <a href="{{route('employeeList')}}">Dashboard</a>
+                    <a href="#">Dashboard</a>
                 </li>
                 <li>
                     <a href="#">Employee Management</a>
@@ -36,7 +36,36 @@
 
         <!-- Page Content  -->
         <div id="content">
-
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Department</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>Dept1</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>Dept2</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>Dept1</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 @endsection
